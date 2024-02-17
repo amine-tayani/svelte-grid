@@ -1,0 +1,22 @@
+:root {
+	--font-default: 'Inter', 'Sans-Serif';
+	--background: rgb(37, 37, 37);
+	--text-primary: rgba(253, 253, 253, 0.952);
+}
+
+body {
+	background-color: var(--background);
+	color: var(--text-primary);
+	font-family: var(--font-default);
+}
+
+* {
+	position: relative;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0%;
+}
