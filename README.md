@@ -6,7 +6,7 @@
   <br>
 </h1>
 
-<h4 align="center">A Simple Grid Game Built Using<a href="https://kit.svelte.dev/" target="_blank">Svelte KIT</a>.</h4>
+<h4 align="center">A Simple Grid Game Built Using<a href="https://kit.svelte.dev/" target="_blank"> Svelte KIT</a>.</h4>
 
 ## How To Use
 
