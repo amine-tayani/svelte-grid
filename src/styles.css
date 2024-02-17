@@ -1,13 +1,21 @@
-:root {
-	--font-default: 'Inter', 'Sans-Serif';
-	--background: rgb(37, 37, 37);
-	--text-primary: rgba(253, 253, 253, 0.952);
+@font-face {
+	font-family: 'Geist Sans';
+	src: url('../static/fonts/Geist-Regular.otf');
+	src:
+		url('/fonts/Geist-Regular.otf') format('opentype'),
+		url('/fonts/Geist-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
 }
 
-body {
-	background-color: var(--background);
-	color: var(--text-primary);
-	font-family: var(--font-default);
+@font-face {
+	font-family: 'Geist Sans';
+	src: url('/fonts/Geist-Bold.otf');
+	src:
+		url('/fonts/Geist-Bold.otf') format('opentype'),
+		url('/fonts/Geist-Bold.woff2') format('woff2');
+	font-weight: bold;
+	font-style: normal;
 }
 
 * {
@@ -15,8 +23,33 @@ body {
 	box-sizing: border-box;
 }
 
-html,
+:root {
+	--bg-1: #fff;
+	--bg-2: #eee;
+	--bg-3: #777;
+	--fg: #222;
+	--card-border: #222;
+	--card-border-found: #777;
+	--accent: hsl(315, 66%, 37%);
+	--default-font:            
+;
+}
+
+:root,
 body {
 	height: 100%;
-	margin: 0%;
+	margin: 0;
+	font-family: 'Geist Sans';
+	background: var(--bg-1);
+	color: var(--fg);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg-1: #111;
+		--bg-2: #444;
+		--bg-3: #666;
+		--fg: #eee;
+		--accent: hsl(275, 1040%, 57%);
+	}
 }
