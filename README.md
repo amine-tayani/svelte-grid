@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/amine-tayani/svelte-grid/blob/main/static/Svelte_Logo.png" alt="Svelte" width="200"></a>
+  <a href="https://kit.svelte.dev/"><img src="https://github.com/amine-tayani/svelte-grid/blob/main/src/routes/Svelte_Logo.png" alt="Svelte" width="200"></a>
   <br>
   Svelte Grid Game
   <br>
